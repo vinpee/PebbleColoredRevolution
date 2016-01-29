@@ -4,6 +4,9 @@
 // Envisioned as a watchface by Jean-Noël Mattern
 // Based on the display of the Freebox Revolution, which was designed by Philippe Starck.
 
+// ImageMagick - pour convertir couleurs des images : 
+// c:\images\batch>FOR %G IN (*.png) DO convert %G +level-colors green green\green_%G
+
 #include <pebble.h>
 
 
@@ -353,7 +356,7 @@ void display_day(struct tm *tick_time) {
 
   day_item.image = gbitmap_create_with_resource(DAY_IMAGE_RESOURCE_IDS[tick_time->tm_wday]);
 
-  day_item.image_layer = bitmap_layer_create(day_item.image->bounds);
+  day_item.image_layer = bitmap_layer_create(gbitmap_get_bounds(day_item.image));
   bitmap_layer_set_bitmap(day_item.image_layer, day_item.image);
   layer_add_child(day_item.layer, bitmap_layer_get_layer(day_item.image_layer));
 

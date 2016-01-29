@@ -1,10 +1,6 @@
-## Revolution watchface
+## Revolution watchface in color
 
-![Photo](http://d.pr/i/Qe9k+)
-
-[Video of time animation](http://d.pr/v/nQWY)
-
-Implemented by Douwe Maan.
+Based on the work of [Douwe Maan](http://www.douwemaan.com/).
 
 Envisioned as a watchface by Jean-Noël Mattern (Jnm), who posted it in the ["Watch-face ideas" thread](http://forums.getpebble.com/discussion/comment/3538/#Comment_3538) on the Pebble forums.
 
