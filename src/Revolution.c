@@ -710,8 +710,7 @@ void init() {
   
   window = window_create();
   window_stack_push(window, true /* Animated */);
-  char hex_background_color[9];
-  persist_read_string(KEY_BACKGROUND_COLOR, hex_background_color, sizeof(hex_background_color));
+  
   GColor background_color;
   background_color.argb = persist_read_int(KEY_BACKGROUND_COLOR);
   window_set_background_color(window, background_color);
