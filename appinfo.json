@@ -1,10 +1,12 @@
 {
     "appKeys": {
+        "KEY_AMERICAN_FORMAT": 5,
         "KEY_BACKGROUND_COLOR": 4,
         "KEY_DATE_COLOR": 1,
         "KEY_DAY_COLOR": 3,
         "KEY_SECOND_COLOR": 2,
-        "KEY_TIME_COLOR": 0
+        "KEY_TIME_COLOR": 0,
+        "KEY_VIBE_HOUR": 6
     },
     "capabilities": [
         ""
@@ -14,7 +16,7 @@
     "longName": "RevolutionColor",
     "projectType": "native",
     "resources": {
-        "media": [            
+        "media": [
             {
                 "file": "images/time_9.png",
                 "name": "IMAGE_TIME_9",
@@ -359,6 +361,356 @@
             {
                 "file": "images/green_second_9.png",
                 "name": "GREEN_IMAGE_SECOND_9",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_time_5.png",
+                "name": "BLUE_IMAGE_TIME_5",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_time_4.png",
+                "name": "BLUE_IMAGE_TIME_4",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_time_3.png",
+                "name": "BLUE_IMAGE_TIME_3",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_time_2.png",
+                "name": "BLUE_IMAGE_TIME_2",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_time_1.png",
+                "name": "BLUE_IMAGE_TIME_1",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_time_0.png",
+                "name": "BLUE_IMAGE_TIME_0",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_9.png",
+                "name": "BLUE_IMAGE_SECOND_9",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_8.png",
+                "name": "BLUE_IMAGE_SECOND_8",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_7.png",
+                "name": "BLUE_IMAGE_SECOND_7",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_6.png",
+                "name": "BLUE_IMAGE_SECOND_6",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_5.png",
+                "name": "BLUE_IMAGE_SECOND_5",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_4.png",
+                "name": "BLUE_IMAGE_SECOND_4",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_3.png",
+                "name": "BLUE_IMAGE_SECOND_3",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_2.png",
+                "name": "BLUE_IMAGE_SECOND_2",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_1.png",
+                "name": "BLUE_IMAGE_SECOND_1",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_second_0.png",
+                "name": "BLUE_IMAGE_SECOND_0",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_6.png",
+                "name": "BLUE_IMAGE_DAY_6",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_5.png",
+                "name": "BLUE_IMAGE_DAY_5",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_4.png",
+                "name": "BLUE_IMAGE_DAY_4",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_3.png",
+                "name": "BLUE_IMAGE_DAY_3",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_2.png",
+                "name": "BLUE_IMAGE_DAY_2",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_1.png",
+                "name": "BLUE_IMAGE_DAY_1",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_day_0.png",
+                "name": "BLUE_IMAGE_DAY_0",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_9.png",
+                "name": "BLUE_IMAGE_DATE_9",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_8.png",
+                "name": "BLUE_IMAGE_DATE_8",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_7.png",
+                "name": "BLUE_IMAGE_DATE_7",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_6.png",
+                "name": "BLUE_IMAGE_DATE_6",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_5.png",
+                "name": "BLUE_IMAGE_DATE_5",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_4.png",
+                "name": "BLUE_IMAGE_DATE_4",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_3.png",
+                "name": "BLUE_IMAGE_DATE_3",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_2.png",
+                "name": "BLUE_IMAGE_DATE_2",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_1.png",
+                "name": "BLUE_IMAGE_DATE_1",
+                "type": "png"
+            },
+            {
+                "file": "images/blue_date_0.png",
+                "name": "BLUE_IMAGE_DATE_0",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_9.png",
+                "name": "BLACK_IMAGE_TIME_9",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_8.png",
+                "name": "BLACK_IMAGE_TIME_8",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_7.png",
+                "name": "BLACK_IMAGE_TIME_7",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_6.png",
+                "name": "BLACK_IMAGE_TIME_6",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_5.png",
+                "name": "BLACK_IMAGE_TIME_5",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_4.png",
+                "name": "BLACK_IMAGE_TIME_4",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_3.png",
+                "name": "BLACK_IMAGE_TIME_3",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_2.png",
+                "name": "BLACK_IMAGE_TIME_2",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_1.png",
+                "name": "BLACK_IMAGE_TIME_1",
+                "type": "png"
+            },
+            {
+                "file": "images/black_time_0.png",
+                "name": "BLACK_IMAGE_TIME_0",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_9.png",
+                "name": "BLACK_IMAGE_SECOND_9",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_8.png",
+                "name": "BLACK_IMAGE_SECOND_8",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_7.png",
+                "name": "BLACK_IMAGE_SECOND_7",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_6.png",
+                "name": "BLACK_IMAGE_SECOND_6",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_5.png",
+                "name": "BLACK_IMAGE_SECOND_5",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_4.png",
+                "name": "BLACK_IMAGE_SECOND_4",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_3.png",
+                "name": "BLACK_IMAGE_SECOND_3",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_2.png",
+                "name": "BLACK_IMAGE_SECOND_2",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_1.png",
+                "name": "BLACK_IMAGE_SECOND_1",
+                "type": "png"
+            },
+            {
+                "file": "images/black_second_0.png",
+                "name": "BLACK_IMAGE_SECOND_0",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_6.png",
+                "name": "BLACK_IMAGE_DAY_6",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_5.png",
+                "name": "BLACK_IMAGE_DAY_5",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_4.png",
+                "name": "BLACK_IMAGE_DAY_4",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_3.png",
+                "name": "BLACK_IMAGE_DAY_3",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_2.png",
+                "name": "BLACK_IMAGE_DAY_2",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_1.png",
+                "name": "BLACK_IMAGE_DAY_1",
+                "type": "png"
+            },
+            {
+                "file": "images/black_day_0.png",
+                "name": "BLACK_IMAGE_DAY_0",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_9.png",
+                "name": "BLACK_IMAGE_DATE_9",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_8.png",
+                "name": "BLACK_IMAGE_DATE_8",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_7.png",
+                "name": "BLACK_IMAGE_DATE_7",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_6.png",
+                "name": "BLACK_IMAGE_DATE_6",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_5.png",
+                "name": "BLACK_IMAGE_DATE_5",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_4.png",
+                "name": "BLACK_IMAGE_DATE_4",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_3.png",
+                "name": "BLACK_IMAGE_DATE_3",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_2.png",
+                "name": "BLACK_IMAGE_DATE_2",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_1.png",
+                "name": "BLACK_IMAGE_DATE_1",
+                "type": "png"
+            },
+            {
+                "file": "images/black_date_0.png",
+                "name": "BLACK_IMAGE_DATE_0",
                 "type": "png"
             },
             {
@@ -779,356 +1131,6 @@
             {
                 "file": "images/blue_time_6.png",
                 "name": "BLUE_IMAGE_TIME_6",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_time_5.png",
-                "name": "BLUE_IMAGE_TIME_5",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_time_4.png",
-                "name": "BLUE_IMAGE_TIME_4",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_time_3.png",
-                "name": "BLUE_IMAGE_TIME_3",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_time_2.png",
-                "name": "BLUE_IMAGE_TIME_2",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_time_1.png",
-                "name": "BLUE_IMAGE_TIME_1",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_time_0.png",
-                "name": "BLUE_IMAGE_TIME_0",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_9.png",
-                "name": "BLUE_IMAGE_SECOND_9",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_8.png",
-                "name": "BLUE_IMAGE_SECOND_8",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_7.png",
-                "name": "BLUE_IMAGE_SECOND_7",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_6.png",
-                "name": "BLUE_IMAGE_SECOND_6",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_5.png",
-                "name": "BLUE_IMAGE_SECOND_5",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_4.png",
-                "name": "BLUE_IMAGE_SECOND_4",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_3.png",
-                "name": "BLUE_IMAGE_SECOND_3",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_2.png",
-                "name": "BLUE_IMAGE_SECOND_2",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_1.png",
-                "name": "BLUE_IMAGE_SECOND_1",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_second_0.png",
-                "name": "BLUE_IMAGE_SECOND_0",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_6.png",
-                "name": "BLUE_IMAGE_DAY_6",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_5.png",
-                "name": "BLUE_IMAGE_DAY_5",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_4.png",
-                "name": "BLUE_IMAGE_DAY_4",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_3.png",
-                "name": "BLUE_IMAGE_DAY_3",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_2.png",
-                "name": "BLUE_IMAGE_DAY_2",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_1.png",
-                "name": "BLUE_IMAGE_DAY_1",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_day_0.png",
-                "name": "BLUE_IMAGE_DAY_0",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_9.png",
-                "name": "BLUE_IMAGE_DATE_9",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_8.png",
-                "name": "BLUE_IMAGE_DATE_8",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_7.png",
-                "name": "BLUE_IMAGE_DATE_7",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_6.png",
-                "name": "BLUE_IMAGE_DATE_6",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_5.png",
-                "name": "BLUE_IMAGE_DATE_5",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_4.png",
-                "name": "BLUE_IMAGE_DATE_4",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_3.png",
-                "name": "BLUE_IMAGE_DATE_3",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_2.png",
-                "name": "BLUE_IMAGE_DATE_2",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_1.png",
-                "name": "BLUE_IMAGE_DATE_1",
-                "type": "png"
-            },
-            {
-                "file": "images/blue_date_0.png",
-                "name": "BLUE_IMAGE_DATE_0",
-                "type": "png"
-            },
-			{
-                "file": "images/black_time_9.png",
-                "name": "BLACK_IMAGE_TIME_9",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_8.png",
-                "name": "BLACK_IMAGE_TIME_8",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_7.png",
-                "name": "BLACK_IMAGE_TIME_7",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_6.png",
-                "name": "BLACK_IMAGE_TIME_6",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_5.png",
-                "name": "BLACK_IMAGE_TIME_5",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_4.png",
-                "name": "BLACK_IMAGE_TIME_4",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_3.png",
-                "name": "BLACK_IMAGE_TIME_3",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_2.png",
-                "name": "BLACK_IMAGE_TIME_2",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_1.png",
-                "name": "BLACK_IMAGE_TIME_1",
-                "type": "png"
-            },
-            {
-                "file": "images/black_time_0.png",
-                "name": "BLACK_IMAGE_TIME_0",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_9.png",
-                "name": "BLACK_IMAGE_SECOND_9",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_8.png",
-                "name": "BLACK_IMAGE_SECOND_8",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_7.png",
-                "name": "BLACK_IMAGE_SECOND_7",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_6.png",
-                "name": "BLACK_IMAGE_SECOND_6",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_5.png",
-                "name": "BLACK_IMAGE_SECOND_5",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_4.png",
-                "name": "BLACK_IMAGE_SECOND_4",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_3.png",
-                "name": "BLACK_IMAGE_SECOND_3",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_2.png",
-                "name": "BLACK_IMAGE_SECOND_2",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_1.png",
-                "name": "BLACK_IMAGE_SECOND_1",
-                "type": "png"
-            },
-            {
-                "file": "images/black_second_0.png",
-                "name": "BLACK_IMAGE_SECOND_0",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_6.png",
-                "name": "BLACK_IMAGE_DAY_6",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_5.png",
-                "name": "BLACK_IMAGE_DAY_5",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_4.png",
-                "name": "BLACK_IMAGE_DAY_4",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_3.png",
-                "name": "BLACK_IMAGE_DAY_3",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_2.png",
-                "name": "BLACK_IMAGE_DAY_2",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_1.png",
-                "name": "BLACK_IMAGE_DAY_1",
-                "type": "png"
-            },
-            {
-                "file": "images/black_day_0.png",
-                "name": "BLACK_IMAGE_DAY_0",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_9.png",
-                "name": "BLACK_IMAGE_DATE_9",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_8.png",
-                "name": "BLACK_IMAGE_DATE_8",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_7.png",
-                "name": "BLACK_IMAGE_DATE_7",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_6.png",
-                "name": "BLACK_IMAGE_DATE_6",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_5.png",
-                "name": "BLACK_IMAGE_DATE_5",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_4.png",
-                "name": "BLACK_IMAGE_DATE_4",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_3.png",
-                "name": "BLACK_IMAGE_DATE_3",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_2.png",
-                "name": "BLACK_IMAGE_DATE_2",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_1.png",
-                "name": "BLACK_IMAGE_DATE_1",
-                "type": "png"
-            },
-            {
-                "file": "images/black_date_0.png",
-                "name": "BLACK_IMAGE_DATE_0",
                 "type": "png"
             }
         ]

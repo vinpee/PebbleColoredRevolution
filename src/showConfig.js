@@ -22,6 +22,8 @@ Pebble.addEventListener('webviewclosed', function(e) {
   dict.KEY_SECOND_COLOR = parseInt(configData.second_color, 10);
   dict.KEY_DAY_COLOR = parseInt(configData.day_color, 10);  
   dict.KEY_BACKGROUND_COLOR = GColorFromHex(configData.background_color);  
+  dict.KEY_AMERICAN_FORMAT = (configData.use_american_format ? 1 : 0);  
+  dict.KEY_VIBE_HOUR = (configData.vibe_on_hour ? 1 : 0);  
   
   // Send settings to Pebble watchapp
   Pebble.sendAppMessage(dict, function(){
